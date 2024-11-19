@@ -2,7 +2,7 @@
 
 Quiz built using JavaScript, Web APIs and CSS to render question pages from object content using a loop, render alert to feedback whether correct answer was selected and display high scores from local storage.
 
-[Deployed GitHub URL](https://Kris1825.github.io/code-quiz/)
+[Deployed GitHub URL](https://Kris1825.github.io/quiz-code/)
 
 ## Technologies
 
