@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Code Quiz</title>
+  </head>
+  <body>
+    <!-- nav containing title and 2 links -->
+    <header class="header">
+      <nav class="navbar-container">
+        <div class="nav-links">
+          <a class="nav-link" href="./index.html">Home</a>
+        </div>
+        <div>
+          <h1 id="title">Code Quiz</h1>
+        </div>
+        <div class="nav-links">
+          <a class="nav-link" href="./highscores.html">High Scores</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <!-- Homepage -->
+      <section class="content" id="start-content">
+        <h2>Welcome to the quiz...</h2>
+        <p class="intro">
+          There are 5 questions for you to test your knowledge of the
+          fundamentals of HTML, CSS and JavaScript.
+        </p>
+        <p class="intro">
+          You have 60 seconds to answer all of the questions and a wrong answer
+          will cost you a time penalty of 5 seconds.
+        </p>
+        <p class="intro">Good Luck!</p>
+        <div>
+          <button class="button" id="start-button" type="submit">
+            Start Quiz
+          </button>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <i class="fa-solid fa-crown"></i> Created by Krzysztof Tomczak 2024
+    </footer>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
